@@ -1,9 +1,9 @@
 service: workshop-${self:custom.name}
 
-frameworkVersion: '3'
+frameworkVersion: "3"
 
 custom:
-  name: joe-naber
+  name: chris-staub
   export-env:
     overwrite: true
 
@@ -132,7 +132,7 @@ resources:
   Outputs:
     RestaurantsTableName:
       Value: !Ref RestaurantsTable
-      
+
     CognitoUserPoolId:
       Value: !Ref CognitoUserPool
 
